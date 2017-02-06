@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>复制链接</string>
+		<key>image</key>
+		<string>mk_copy_item</string>
+		<key>key</key>
+		<string>Copy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>刷新</string>
+		<key>image</key>
+		<string>mk_refresh_item</string>
+		<key>key</key>
+		<string>Refresh</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>收藏</string>
+		<key>image</key>
+		<string>mk_collection_item</string>
+		<key>key</key>
+		<string>Collection</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>调整字体</string>
+		<key>image</key>
+		<string>mk_font_size</string>
+		<key>key</key>
+		<string>ResizeFont</string>
+	</dict>
+</array>
+</plist>

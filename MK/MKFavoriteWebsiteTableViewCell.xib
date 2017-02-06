@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MKFavorite Website TableView Cell" id="KGk-i7-Jjw" customClass="MKFavoriteWebsiteTableViewCell" customModule="MK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4TI-WS-f2o">
+                        <rect key="frame" x="25" y="12" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="dMP-IK-OJn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uqq-UF-f1b">
+                        <rect key="frame" x="249" y="120" width="106" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="106" id="IoT-4q-Ghm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFB-kF-deg" customClass="TTTAttributedLabel">
+                        <rect key="frame" x="108" y="12" width="247" height="75"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="lineHeightMultiple">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="4TI-WS-f2o" secondAttribute="bottom" constant="54.5" id="0fk-QF-qbo"/>
+                    <constraint firstItem="4TI-WS-f2o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="2Gp-ow-bZs"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Uqq-UF-f1b" secondAttribute="bottom" constant="0.5" id="2nX-ru-Eoz"/>
+                    <constraint firstItem="Uqq-UF-f1b" firstAttribute="top" secondItem="hFB-kF-deg" secondAttribute="bottom" constant="33" id="JAd-br-ZKw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hFB-kF-deg" secondAttribute="trailing" constant="12" id="Orm-dJ-wWE"/>
+                    <constraint firstItem="4TI-WS-f2o" firstAttribute="top" secondItem="hFB-kF-deg" secondAttribute="top" id="Ubw-6p-6yJ"/>
+                    <constraint firstItem="4TI-WS-f2o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="17" id="aDF-7g-cWD"/>
+                    <constraint firstItem="4TI-WS-f2o" firstAttribute="bottom" secondItem="hFB-kF-deg" secondAttribute="bottom" id="gWe-Nq-7h3"/>
+                    <constraint firstItem="hFB-kF-deg" firstAttribute="leading" secondItem="4TI-WS-f2o" secondAttribute="trailing" constant="8" symbolic="YES" id="iFA-14-9Og"/>
+                    <constraint firstItem="hFB-kF-deg" firstAttribute="trailing" secondItem="Uqq-UF-f1b" secondAttribute="trailing" id="wcg-4K-Un5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="dateLabel" destination="Uqq-UF-f1b" id="KTY-gO-WRh"/>
+                <outlet property="headImageView" destination="4TI-WS-f2o" id="2kQ-xM-R2b"/>
+                <outlet property="titleLabel" destination="hFB-kF-deg" id="PwM-Jf-vK4"/>
+            </connections>
+            <point key="canvasLocation" x="-161.5" y="-14"/>
+        </tableViewCell>
+    </objects>
+</document>

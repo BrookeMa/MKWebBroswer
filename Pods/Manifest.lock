@@ -1,0 +1,31 @@
+PODS:
+  - HTMLReader (2.0)
+  - Kingfisher (3.1.4)
+  - Masonry (1.0.2)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - TTTAttributedLabel (2.0.0)
+  - UMengUShare/Core (6.0.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.0.1)
+  - UMengUShare/Social/QQ (6.0.1):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - HTMLReader
+  - Kingfisher (~> 3.0)
+  - MMPopupView
+  - TTTAttributedLabel
+  - UMengUShare/Social/QQ
+
+SPEC CHECKSUMS:
+  HTMLReader: 7fbf32ddfcbcdfeba0833713e4545d1862aeb07c
+  Kingfisher: 6c67e3e57f2d81a9cfdfa25052cd86f33ceac9bb
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UMengUShare: 418c2eaf7d8ba939916111d622bf5ea86c86285a
+
+PODFILE CHECKSUM: 4334a643687548976b4c2391a42a1dfaf87b0f4e
+
+COCOAPODS: 1.0.0

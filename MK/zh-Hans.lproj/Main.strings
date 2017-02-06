@@ -1,0 +1,12 @@
+
+/* Class = "UIBarButtonItem"; title = "确认"; ObjectID = "LwJ-AQ-qOb"; */
+"LwJ-AQ-qOb.title" = "确认";
+
+/* Class = "UINavigationItem"; title = "选择网站"; ObjectID = "eBy-gS-oJP"; */
+"eBy-gS-oJP.title" = "选择网站";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "jvM-hs-8Wd"; */
+"jvM-hs-8Wd.title" = "取消";
+
+/* Class = "UINavigationItem"; title = "收藏"; ObjectID = "p5J-Rc-D2Q"; */
+"p5J-Rc-D2Q.title" = "收藏";
